@@ -745,6 +745,82 @@ button.go-top.active {
     margin: 0;
 }
 
+/*Outros segmentos*/
+.card-saneamento {
+	background-image: url('images/4-1.webp');
+	background-position: center;
+	background-size: cover;
+}
+
+.w-3.image-saneamento {
+    grid-row: span 2;
+}
+
+.card-icons {
+    border-radius: 30px;
+    background-color: #052e61;
+    height: 100%;
+    padding: 26px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+}
+
+.card-icons.color-2 {
+	background-color: #008FDD;
+}
+
+.card-icons h3 {
+    color: #fff;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.card-icons img {
+    margin: auto;
+    display: block;
+}
+
+section.setores {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+section.setores p {
+    margin-bottom: 40px;
+}
+
+.w-6.bomba-card img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.w-6.bomba-card h3 {
+    margin: auto;
+    display: inline-block;
+    width: fit-content;
+    background-color: #c8ecff;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #008fdd;
+    font-weight: 900;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.w-6.bomba-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.w-6.bomba-card h3 strong {
+    color: #023f88;
+}
+
 /*Responsivo Geral*/
 @media (max-width: 980px) {
 	button.close-menu, button.open-menu {
