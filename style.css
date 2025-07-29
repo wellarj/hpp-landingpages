@@ -40,6 +40,7 @@ button {
 .row>div {
     width: 100%;
 }
+
 .w-12 {
 	grid-column: span 12;
 }
