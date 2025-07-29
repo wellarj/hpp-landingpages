@@ -613,6 +613,10 @@ span.btn-slider:hover {
     background-color: #052E61;
 }
 
+.carrosel-buttons ul {
+    padding: 0;
+}
+
 /*Aplicações*/
 section#aplicacoes {
 	padding-top: 100px;
