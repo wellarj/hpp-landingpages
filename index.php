@@ -64,7 +64,7 @@
 					</a>
 				</div>
 				<div class="ent-menu-responsivo">
-					<button class="close-menu">
+					<button class="close-menu" title="Fechar Menu">
 						<i class="fa-solid fa-xmark"></i>
 					</button>
 					<ul>
@@ -92,7 +92,7 @@
 					<a href="https://wa.me/5519996172707" target="_blank" title="Whatsapp HPP">
 						<i class="fab fa-whatsapp"></i>
 					</a>
-					<button class="open-menu">
+					<button class="open-menu" title="abrir menu">
 						<i class="fa-solid fa-bars-staggered"></i>
 					</button>
 				</div>
@@ -209,22 +209,22 @@
 						<div class="ent-carrosel-inv">
 						    <div class="carrosel">
 						    	<div class="produto-card">
-						    		<img loading="lazy" src="images/produtos/1.webp" data-name="Produto 1">
+						    		<img loading="lazy" src="images/produtos/1.webp" data-name="Produto 1" alt="Produto 1">
 						    	</div>
 						    	<div class="produto-card">
-						    		<img loading="lazy" src="images/produtos/2.webp" data-name="Produto 2">
+						    		<img loading="lazy" src="images/produtos/2.webp" data-name="Produto 2" alt="Produto 2">
 						    	</div>
 						    	<div class="produto-card">
-						    		<img loading="lazy" src="images/produtos/3.webp" data-name="Produto 3">
+						    		<img loading="lazy" src="images/produtos/3.webp" data-name="Produto 3" alt="Produto 3">
 						    	</div>
 						    	<div class="produto-card">
-						    		<img loading="lazy" src="images/produtos/1.webp" data-name="Produto 1">
+						    		<img loading="lazy" src="images/produtos/1.webp" data-name="Produto 1" alt="Produto 1">
 						    	</div>
 						    	<div class="produto-card">
-						    		<img loading="lazy" src="images/produtos/2.webp" data-name="Produto 2">
+						    		<img loading="lazy" src="images/produtos/2.webp" data-name="Produto 2" alt="Produto 2">
 						    	</div>
 						    	<div class="produto-card">
-						    		<img loading="lazy" src="images/produtos/3.webp" data-name="Produto 3">
+						    		<img loading="lazy" src="images/produtos/3.webp" data-name="Produto 3" alt="Produto 3">
 						    	</div>
 						    </div>
 						    <div class="carrosel-buttons">
