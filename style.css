@@ -441,3 +441,37 @@ header::before {
     background-color: #f9f9f9;
     height: 150px;
 }
+
+/*Sobre*/
+.image-50-w-invert {
+    left: auto;
+    right: 0;
+}
+
+.image-50-w-spaced {
+	top: 0;
+}
+
+.image-50-w-spaced img {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+section#sobre {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+section#sobre h1, section#sobre p {
+    width: 500px;
+    max-width: 90%;
+    margin-bottom: 20px;
+}
+
+section#sobre p {
+    color: #333;
+}
+
+section#sobre p strong {
+    color: #023f88;
+}
