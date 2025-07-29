@@ -475,3 +475,139 @@ section#sobre p {
 section#sobre p strong {
     color: #023f88;
 }
+
+/*Divisor sobre*/
+.divider-sobre {
+    background-image: url(images/3-1.webp);
+    height: 150px;
+    background-color: #008fdd;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Por que escolher a HPP*/
+section#porque {
+    background-color: #052E61;
+}
+
+section#porque * {
+    color: #fff;
+}
+
+.w-6.w-cards-icons {
+    padding: 100px;
+    padding-right: 0;
+}
+
+.w-6.w-cards-icons h1 {
+	font-size: 28px;
+	font-weight: 900;
+}
+
+.row.row-cards {
+    margin-top: 50px;
+    display: grid;
+    align-items: center;
+    gap: 31px;
+}
+
+section#porque::before {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -140px;
+    top: -77px;
+    z-index: 1;
+    background-color: transparent;
+    height: 127%;
+    width: 35%;
+    background-image: url(images/png-icon.webp);
+    background-position: center -175px;
+    background-size: cover;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    transform: rotate(93deg);
+}
+
+.w-6.w-cards-icons img {
+    display: block;
+    margin: auto;
+    height: 50px;
+    margin-left: 0;
+}
+
+/*Modelos de bombas*/
+.produtos-carrosel {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.produtos-carrosel p {
+    margin-bottom: 50px;
+}
+
+p.dark {
+    color: #333;
+}
+
+p {
+    font-weight: 500;
+}
+
+.slick-slide img {
+    max-width: 100%;
+}
+
+.produto-card.slick-slide {
+    filter: blur(5px);
+    transform: scale(.5);
+    transition: all .4s;
+}
+
+.produto-card.slick-slide.slick-current.slick-active.slick-center {
+    filter: initial;
+    transform: scale(1);
+}
+
+.carrosel-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.carrosel-buttons ul {
+    list-style: none;
+}
+
+span.nome-produto {
+    background-color: #c8ecff;
+    display: block;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #008fdd;
+    font-weight: 900;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+span.btn-slider {
+    height: 59px;
+    display: block;
+    width: 59px;
+    text-align: center;
+    line-height: 59px;
+    background-color: #0f4cd9;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+span.btn-slider:hover {
+    background-color: #052E61;
+}
