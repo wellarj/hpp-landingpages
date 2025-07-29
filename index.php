@@ -1,0 +1,264 @@
+<?php
+	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+	
+		header('Content-Type: application/json');
+
+
+		exit();
+	}
+?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HPP | Saneamento básico</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="topo">
+	<!-- Menu -->
+	<nav>
+		<div class="container container-nav">
+			<div class="logo-menu">
+				<a href="#topo">
+					<img src="images/logo.webp" class="logo-full" alt="HPP">
+					<img src="images/logo-min.webp" class="logo-min" alt="HPP">
+				</a>
+			</div>
+			<div class="ent-menu-responsivo">
+				<button class="close-menu">
+					<i class="fa-solid fa-xmark"></i>
+				</button>
+				<ul>
+					<li>
+						<a class="menu-link active" href="#topo">Início</a>
+					</li>
+					<li>
+						<a class="menu-link" href="#sobre">Sobre a HPP</a>
+					</li>
+					<li>
+						<a class="menu-link" href="#aplicacoes">Aplicações</a>
+					</li>
+					<li>
+						<a class="menu-link" href="#modelos">Modelos</a>
+					</li>
+					<li>
+						<a class="menu-link" href="#contato">Fale com um Consultor</a>
+					</li>
+				</ul>
+			</div>
+			<div class="social-menu">
+				<a href="https://wa.me/551100000000">
+					<i class="fab fa-whatsapp"></i>
+				</a>
+				<button class="open-menu">
+					<i class="fa-solid fa-bars-staggered"></i>
+				</button>
+			</div>
+		</div>
+	</nav>
+	<!-- Menu -->
+
+	<!-- Header -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="w-6">
+					<div class="image-50-w">
+						<img src="images/1.webp" class="img-full-fit" alt="Saneamento Básico">
+						<img src="images/tag.webp" alt="Saneamento Básico">
+					</div>
+				</div>
+				<div class="w-6">
+					<div class="ent-text-header">
+						<h1><strong>Potência e<br>confiabilidade<br></strong>para os desafios<br>do saneamento.</h1>
+						<p>As bombas HPP atuam com eficiência<br>nas aplicações mais críticas.</p>
+						<a href="#contato">
+							<button>Fale com um Consultor Técnico</button>
+						</a>
+						<img src="images/1-1.webp" alt="Produtos saneamento básico header">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header -->
+
+	<!-- Divisor header -->
+	<div class="divider-header"></div>
+	<!-- Divisor header -->
+
+	<!-- Produtos -->
+	<section class="produtos-carrosel" id="modelos">
+		<div class="container">
+			<div class="row">
+				<div class="w-12">
+					<div class="ent-carrosel-inv">
+					    <div class="carrosel">
+					    	<div class="produto-card">
+					    		<img src="images/produtos/1.webp" data-name="Produto 1">
+					    	</div>
+					    	<div class="produto-card">
+					    		<img src="images/produtos/2.webp" data-name="Produto 2">
+					    	</div>
+					    	<div class="produto-card">
+					    		<img src="images/produtos/3.webp" data-name="Produto 3">
+					    	</div>
+					    	<div class="produto-card">
+					    		<img src="images/produtos/1.webp" data-name="Produto 1">
+					    	</div>
+					    	<div class="produto-card">
+					    		<img src="images/produtos/2.webp" data-name="Produto 2">
+					    	</div>
+					    	<div class="produto-card">
+					    		<img src="images/produtos/3.webp" data-name="Produto 3">
+					    	</div>
+					    </div>
+					    <div class="carrosel-buttons">
+					    	<ul class="left-carrosel">
+						        <li class="carrosel-prev" style="">
+						            <img src="https://ellencoempreendimentos.com.br/assets/img/carrosel-inv-prev.svg" alt="carrosel prev">
+						        </li>
+						    </ul>
+						    <span class="nome-produto"></span>
+						    <ul class="right-carrosel">
+						        <li class="carrosel-next" style="">
+						            <img src="https://ellencoempreendimentos.com.br/assets/img/carrosel-inv-next.svg" alt="carrosel next">
+						        </li>
+						    </ul>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Produtos -->
+
+	<a href="#topo">
+		<button class="go-top">
+			<i class="fa-solid fa-chevron-up"></i>
+		</button>
+	</a>
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<script>
+		// Scroll
+		$('a[href^="#"]').on('click',function(e) {
+			e.preventDefault();
+			var target = this.hash;
+			var $target = $(target);
+
+			$('html, body').stop().animate({
+				'scrollTop': $target.offset().top-100
+			}, 500, 'swing', function(){});
+		});
+
+		$(document).ready(function() {
+			// abrir e fechar menu
+			$('.ent-menu-responsivo a').on('click', function() {
+				$('.ent-menu-responsivo').removeClass('active');
+			})
+
+			$('.ent-menu-responsivo button').on('click', function() {
+				$('.ent-menu-responsivo').removeClass('active');
+			})
+
+			$('section').on('click', function() {
+				$('.ent-menu-responsivo').removeClass('active');
+			})
+
+			$('header').on('click', function() {
+				$('.ent-menu-responsivo').removeClass('active');
+			})
+
+			$('.open-menu').on('click', function() {
+				$('.ent-menu-responsivo').addClass('active');
+			})
+
+			// Voltar ao topo e menu fixo
+			$(window).scroll(function () {
+				if($(window).scrollTop() > 240) {
+					$("nav").addClass('stick');
+					$(".go-top").addClass('active');
+				} else {
+					$("nav").removeClass('stick');
+					$(".go-top").removeClass('active');
+				}
+			});
+
+			let $links = $('.menu-link');
+
+			$(window).on('scroll', function () {
+				let scrollPos = $(window).scrollTop() + ($(window).height() / 2);
+
+				$links.each(function () {
+					let href = $(this).attr('href');
+					let target = $(href);
+
+					if (target.length) {
+						let top = target.offset().top;
+						let bottom = top + target.outerHeight();
+
+						if (scrollPos >= top && scrollPos < bottom) {
+							$links.removeClass('active');
+							$(this).addClass('active');
+						}
+					}
+				});
+			});
+
+		    // Inicializa o slick com centerMode
+		    $('.carrosel').slick({
+		        dots: false,
+		        arrows: true,
+		        infinite: true,
+		        speed: 400,
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+		        centerMode: true, // Ativa centralização
+		        centerPadding: '25%', // Espaço para mostrar anterior/próximo
+		        prevArrow: $('.carrosel-prev'),
+		        nextArrow: $('.carrosel-next')
+		    });
+
+		    // Função para atualizar nome do produto central
+		    function atualizarNomeProduto() {
+		        var slideAtual = $('.carrosel .slick-center img');
+		        var nome = slideAtual.data('name');
+		        $('.nome-produto').text(nome);
+		    }
+
+		    // Função para remover foco de slides ocultos (acessibilidade)
+		    function corrigirAcessibilidade() {
+		        $('.carrosel .slick-slide').each(function() {
+		            const $el = $(this);
+		            const isHidden = $el.attr('aria-hidden') === 'true';
+
+		            if (isHidden) {
+		                $el.attr('tabindex', '-1');
+		                $el.find('*').attr('tabindex', '-1'); // evita foco em filhos
+		            } else {
+		                $el.removeAttr('tabindex');
+		                $el.find('*').removeAttr('tabindex');
+		            }
+		        });
+		    }
+
+		    // Chama ao iniciar
+		    atualizarNomeProduto();
+		    corrigirAcessibilidade();
+
+		    // Chama sempre que mudar o slide
+		    $('.carrosel').on('afterChange', function(event, slick, currentSlide){
+		        atualizarNomeProduto();
+		        corrigirAcessibilidade();
+		    });
+		});
+	</script>
+</body>
+</html>
