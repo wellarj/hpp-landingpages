@@ -243,7 +243,7 @@ nav.stick .container.container-nav {
 	    margin: 0;
 	    display: block;
 	    padding-top: 20px;
-	    margin-top: -100vw;
+	    margin-top: -150vw;
 	    transition: all .2s;
 	}
 
@@ -327,6 +327,7 @@ nav.stick .container.container-nav {
     max-width: 100%;
     height: 100%;
     z-index: 3;
+    top: 0;
 }
 
 header, section {
@@ -379,7 +380,7 @@ header::after {
     z-index: 2;
 }
 
-h1 {
+h1, h2 {
     color: #052E61;
     text-transform: uppercase;
     font-size: 35px;
@@ -462,7 +463,7 @@ section#sobre {
     padding-bottom: 100px;
 }
 
-section#sobre h1, section#sobre p {
+section#sobre h2, section#sobre p {
     width: 500px;
     max-width: 90%;
     margin-bottom: 20px;
@@ -499,7 +500,7 @@ section#porque * {
     padding-right: 0;
 }
 
-.w-6.w-cards-icons h1 {
+.w-6.w-cards-icons h2 {
 	font-size: 28px;
 	font-weight: 900;
 }
@@ -610,4 +611,247 @@ span.btn-slider {
 
 span.btn-slider:hover {
     background-color: #052E61;
+}
+
+/*Aplicações*/
+section#aplicacoes {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+section#aplicacoes h2, section#aplicacoes p {
+    width: 700px;
+    max-width: 90%;
+    margin-bottom: 20px;
+}
+
+section ul {
+    padding-left: 30px;
+}
+
+/*contato*/
+section#contato {
+    background-color: #052e61;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+section#contato h2 {
+    color: #fff;
+    font-weight: 900;
+}
+
+button.btn-contact {
+    background-color: #008fdd;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+button.btn-contact:hover {
+    background: #fff;
+    color: #052e61;
+}
+
+footer {
+    background-color: #052e61;
+    padding-top: 70px;
+}
+
+footer * {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+footer strong {
+    font-weight: 700;
+}
+
+.footer-copy {
+    margin-top: 70px;
+    text-align: center;
+    background-color: #023f88;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-copy p {
+    padding: 15px;
+    margin: 0;
+}
+
+.footer-copy p a {
+    font-weight: 800;
+}
+
+footer ul a {
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+footer ul a:hover {
+    opacity: 1;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+p.social-links a {
+    display: inline-block;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p.social-links strong {
+	display: block;
+}
+
+/*Botão go-top*/
+button.go-top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    z-index: 6;
+    background-color: #1e69ff;
+    transition: all .2s;
+    margin-right: -200px;
+}
+
+button.go-top.active {
+    margin: 0;
+}
+
+/*Responsivo Geral*/
+@media (max-width: 980px) {
+	button.close-menu, button.open-menu {
+	    padding: 13px;
+	    padding-top: 2px;
+	}
+
+	.row>div {
+	    grid-column: span 12;
+	}
+
+	.image-50-w {
+	    position: initial;
+	    height: auto;
+	    margin-left: -15px;
+	    margin-right: -15px;
+	    width: 100vw;
+	    max-width: inherit;
+	}
+
+	header .image-50-w img {
+	    position: inherit;
+	    float: right;
+	}
+
+	img.img-full-fit {
+	    width: 100%;
+	    max-width: 100%;
+	    object-fit: cover;
+	}
+
+	header::before {
+	    display: none;
+	}
+
+	.ent-text-header {
+	    padding: 0;
+	    padding-bottom: 250px;
+	    padding-top: 50px;
+	}
+
+	header::after {
+	    width: 100%;
+	}
+
+	.ent-text-header img {
+	    left: 0;
+	    width: 100%;
+	    bottom: 80px;
+	}
+
+	.divider-header {
+	    height: 100px;
+	}
+
+	section#sobre {
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+	}
+
+	img.img-full-fit {
+	    position: relative;
+	}
+
+	.w-6.w-cards-icons {
+	    padding: 0;
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+	}
+
+	section#porque::before {
+	    display: none;
+	}
+
+	.row.row-cards>div.w-1 {
+	    grid-column: span 3;
+	}
+
+	.row.row-cards>div.w-5 {
+	    grid-column: span 9;
+	}
+
+	section#modelos {
+	    padding-bottom: 0;
+	}
+
+	section#aplicacoes {
+	    padding-bottom: 0;
+	}
+
+	h1, h2 {
+	    font-size: 25px;
+	    line-height: 30px;
+	}
+
+	p {
+	    font-size: 15px;
+	}
+
+	section#contato h2 {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+
+	button.btn-contact {
+	    font-size: 14px;
+	}
+
+	button.go-top {
+	    border-radius: 24px 0px 0px 24px;
+	    right: 0;
+	    bottom: 93px;
+	}
 }
