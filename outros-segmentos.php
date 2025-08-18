@@ -206,7 +206,7 @@
 							<div class="w-3 image-saneamento">
 								<div class="card-icons card-saneamento">
 									<img src="images/ic-4-7.png" alt="Indústria Alimentícia" title="Indústria Alimentícia">
-									<h3>Saneamento</h3>
+									<h3>Saneamento Básico</h3>
 								</div>
 							</div>
 							<div class="w-3">
