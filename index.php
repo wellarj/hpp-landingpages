@@ -295,8 +295,47 @@
 		<!-- Contato -->
 
 		<!-- Divisor header -->
-		<div class="divider-header"></div>
+		<div class="divider-header divider-contato"></div>
 		<!-- Divisor header -->
+
+		<!-- Contact Form -->
+		<section id="contactForm">
+			<div class="container">
+				<div class="row">
+					<div class="w-12">
+						<form>
+							<h3>Fale com a nossa equipe</h3>
+							<p>Quer saber mais? <strong>Preencha o formulário abaixo</strong> e nossa equipe entrará em contato. Vamos entender sua demanda e garantir a melhor solução em bombas de alta pressão.</p>
+
+							<div class="row contact-row">
+								<div class="w-6">
+									<label for="nome">
+										<span>Nome</span>
+										<input type="text" name="nome" id="nome">
+									</label>
+									<label for="telefone">
+										<span>Telefone</span>
+										<input type="text" name="telefone" id="telefone">
+									</label>
+									<label for="email">
+										<span>E-mail</span>
+										<input type="email" name="email" id="email">
+									</label>
+								</div>
+								<div class="w-6">									
+									<label for="mensagem">
+										<span>Escreva sua mensagem</span>
+										<textarea name="mensagem" id="mensagem"></textarea>
+									</label>
+								</div>
+							</div>
+							<button>ENVIAR MENSAGEM</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Contact Form -->
 
 		<!-- Footer -->
 		<footer>

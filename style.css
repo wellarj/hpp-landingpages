@@ -822,6 +822,99 @@ section.setores p {
     color: #023f88;
 }
 
+/*Formulario de contato*/
+#contactForm {
+    background-image: url('images/fundo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+section#contactForm form {
+    position: relative;
+    top: 
+-100px;
+    background-color: #042752;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+section#contactForm form h3 {
+    color: #008fdd;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+section#contactForm form p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+section#contactForm form .row.contact-row {
+    display: grid;
+    align-items: stretch;
+    gap: 46px;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label * {
+    display: block;
+    width: 100%;
+}
+
+input, textarea {
+    height: 48px;
+    margin-top: 6px;
+    border-radius: 16px;
+}
+
+section#contactForm form span {
+    color: #fff;
+    font-weight: 600;
+}
+
+textarea {
+    height: 100%;
+    display: block;
+}
+
+label[for=mensagem] {
+    height: 86%;
+    margin: 0;
+}
+
+section#contactForm form button {
+    position: absolute;
+    width: 24%;
+    left: 38%;
+    bottom: -30px;
+}
+
+section#contactForm .container {
+    width: 1050px;
+    max-width: 100%;
+}
+
+section#contactForm form button {
+    background-color: #008fdd;
+    font-weight: 800;
+}
+
+section#contactForm form button:hover {
+    background-color: #fff;
+    color: #042752;
+}
+
+.divider-header.divider-contato {
+    height: 250px;
+}
+
 /*Responsivo Geral*/
 @media (max-width: 1400px) {
     nav.stick {
@@ -834,6 +927,20 @@ section.setores p {
 }
 
 @media (max-width: 980px) {
+    section#contactForm form .row.contact-row {
+        display: block;
+    }
+
+    textarea#mensagem {
+        min-height: 200px;
+        margin-bottom: 30px;
+    }
+
+    section#contactForm form button {
+        width: 50%;
+        left: 25%;
+    }
+
 	button.close-menu, button.open-menu {
 	    padding: 13px;
 	    padding-top: 2px;
