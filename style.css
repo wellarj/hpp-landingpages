@@ -919,6 +919,10 @@ section#contactForm form button:hover {
     background: #052e61;
 }
 
+.card-icons h3 {
+    margin: 0;
+}
+
 /*Responsivo Geral*/
 @media (max-width: 1400px) {
     nav.stick {
